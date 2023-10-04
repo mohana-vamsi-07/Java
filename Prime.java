@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class Prime {
+public class Prime
+{
     public static void main(String ags[])
     {
         Prime p=new Prime();
@@ -53,21 +54,3 @@ public class Prime {
         //To resolve this and to close the scanner class create a new class and inherit that class with Prime class.
     }
 }
-/*
- * if(ch==1)
-        {
-            System.out.println("Enter the String:");
-            String st=S.next();
-            st.toLowerCase();
-            String newst="";
-            for (int i=0; i<st.length(); i++)
-            {
-                char c= st.charAt(i); //extracts each character
-                newst= c+newst; //adds each character in front of the existing string
-            }
-            if(st==newst)
-            System.out.println("Pri");
-            else
-            System.out.println("No");
-        }
- */
